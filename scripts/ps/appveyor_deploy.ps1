@@ -3,6 +3,7 @@
 ###########################################
 
 $testing = (${env:Configuration} -like "*tests")
+
 if (-not $testing)
 {
     # Check if OpenRCT2.org API security token is available
